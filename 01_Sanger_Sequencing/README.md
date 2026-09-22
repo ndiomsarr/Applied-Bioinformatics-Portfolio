@@ -76,6 +76,24 @@ The final consensus sequence is provided in:
 - FASTA format
 - Excel for quality assessment
 
+
+  ## Chromatogram Figures
+
+### Forward Read
+
+![Forward beginning](figures/A5_2021-06-25_forward_beginning.png)
+
+![Forward middle](figures/A5_2021-06-25_forward_middle.png)
+
+![Forward end](figures/A5_2021-06-25_forward_end.png)
+
+### Reverse Read
+
+![Reverse beginning](figures/A5_2021-06-25_reverse_beginning.png)
+
+![Reverse middle](figures/A5_2021-06-25_reverse_middle.png)
+
+![Reverse end](figures/A5_2021-06-25_reverse_end.png)
 ## Project Status
 
 Completed
