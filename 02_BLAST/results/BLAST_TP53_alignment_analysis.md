@@ -49,3 +49,13 @@ The high query coverage, high sequence identity, very high bit score, and E-valu
 Further analysis will be needed to investigate the alignment discrepancies, map the alignment to annotated exons and coding sequence features, and compare the result to other reference records.
 
 **Note: The statistics provided here refer to the main alignment reported by BLAST. The biological interpretation of individual mismatches and gaps should be done using the corresponding alignment positions and reference annotations.
+
+## 7. Preliminary Interpretation of an Alignment Gap
+
+A gap was observed in the BLASTN alignment around subject coordinate 7,817 of the human TP53 reference sequence NG_017013.2.
+
+Based on the TP53 genomic feature annotations examined in GenBank, this position lies in the intronic region between exon 1 and exon 2.
+
+The observed gap represents an alignment difference between the query and the reference sequence. However, the alignment alone does not establish whether it corresponds to a biological insertion or deletion.
+
+Further sequence-level investigation would be required to characterize the difference and assess its potential biological significance.
