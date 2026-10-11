@@ -59,3 +59,17 @@ Based on the TP53 genomic feature annotations examined in GenBank, this position
 The observed gap represents an alignment difference between the query and the reference sequence. However, the alignment alone does not establish whether it corresponds to a biological insertion or deletion.
 
 Further sequence-level investigation would be required to characterize the difference and assess its potential biological significance.
+
+## 8. Final Biological Conclusion
+
+The BLASTN analysis showed a highly significant match between the human TP53 genomic DNA sequence that was queried and the human TP53 reference sequence NG_017013.2.
+
+The main alignment had 100% query coverage, about 99.75% sequence identity, a bit score of 34,967 and an E-value of 0.0; these findings strongly indicate that there is a correspondence between the query sequence and the human TP53 genomic region on chromosome 17.
+
+The alignment does include gaps and differences in sequence. One cannot determine their biological significance simply from the general BLAST statistics. To examine the individual differences, it would be necessary to use the corresponding alignment positions and genomic annotations.
+
+There was also a close match obtained with a sequence from mouse chromosome 17. While this finding is significant, the biological explanation for it has not still been established and will need further investigation.
+
+The reference sequence for WRAP53 had a high percentage of identity when compared with partial query coverage and thus represented a partial match which should be understood separately from the main TP53 alignment.
+
+The project as a whole shows how BLASTN can be used to identify sequence similarities, assess the alignment statistics, look at the genomic coordinates, and link the sequence comparisons to genomic annotations. However, further validation would still be required before any conclusions could be drawn regarding individual variants or their biological effects.
